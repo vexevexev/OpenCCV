@@ -1,0 +1,6 @@
+Update the client to direct it's connection to this server's hostname. Store it in an executable jar.
+Use "./make_key.sh <hostname>" to create a key for OpenCCV, where <hostname> is the server hosting OpenCCV. Don't forget the password you supply during the prompt.
+Use "./sign_jars.sh <password> <hostname>" to sign all the jars.
+Use "./make_jnlp.sh <hostname>" to create a .jnlp file to distribute.
+Move all the contents of this folder to the priv/www/ folder of this OpenACD plugin.
+

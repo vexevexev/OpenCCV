@@ -1,0 +1,12 @@
+{application, open_ccv, [
+	{description, ""},
+	{vsn, "1"},
+	{registered, []},
+	{applications, [
+		kernel,
+		stdlib,
+		'OpenACD'
+	]},
+	{mod, { open_ccv, []}},
+	{env, []}
+]}.

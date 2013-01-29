@@ -1,0 +1,84 @@
+:3838"
+      href="OpenCCV.jnlp">
+
+  <update check="always" policy="always" />
+
+  <information>
+    <title>Contact Center Visualization Tool</title>
+    <vendor>PATLive</vendor>
+    <homepage href="http://www.patlive.com/"/>
+    <description>Contact Center Visualization Tool</description>
+    <description kind="short">Ian Wesson's Contact Center Debugger and Visual Aid.</description>
+    <offline-allowed/>
+  </information>
+  <update check="background" policy="always"/>
+  <security>
+      <all-permissions/>
+  </security>
+
+    <resources>
+      <j2se href="http://java.sun.com/products/autodl/j2se" version="1.4+"/>
+      <jar href="OpenCCV.jar" main="true"/>
+      <jar href="resources/gluegen-rt/gluegen-rt.jar" />
+      <jar href="resources/jogl/jogl.jar" />
+    </resources>
+
+    <resources os="Windows" arch="x86">
+      <nativelib href = "resources/gluegen-rt/gluegen-rt-natives-windows-i586.jar" />
+      <nativelib href = "resources/jogl/jogl-natives-windows-i586.jar" />
+    </resources>
+    <resources os="Windows" arch="amd64">
+      <nativelib href = "resources/gluegen-rt/gluegen-rt-natives-windows-amd64.jar" />
+      <nativelib href = "resources/jogl/jogl-natives-windows-amd64.jar" />
+    </resources>
+    <resources os="Windows" arch="x86_64">
+      <nativelib href = "resources/gluegen-rt/gluegen-rt-natives-windows-amd64.jar" />
+      <nativelib href = "resources/jogl/jogl-natives-windows-amd64.jar" />
+    </resources>
+    <resources os="SunOS" arch="sparc">
+      <nativelib href = "resources/gluegen-rt/gluegen-rt-natives-solaris-sparc.jar" />
+      <nativelib href = "resources/jogl/jogl-natives-solaris-sparc.jar" />
+    </resources>
+    <resources os="SunOS" arch="sparcv9">
+      <nativelib href = "resources/gluegen-rt/gluegen-rt-natives-solaris-sparcv9.jar" />
+      <nativelib href = "resources/jogl/jogl-natives-solaris-sparcv9.jar" />
+    </resources>
+    <resources os="SunOS" arch="x86">
+      <nativelib href = "resources/gluegen-rt/gluegen-rt-natives-solaris-i586.jar" />
+      <nativelib href = "resources/jogl/jogl-natives-solaris-i586.jar" />
+    </resources>
+    <resources os="SunOS" arch="amd64">
+      <nativelib href = "resources/gluegen-rt/gluegen-rt-natives-solaris-amd64.jar" />
+      <nativelib href = "resources/jogl/jogl-natives-solaris-amd64.jar" />
+    </resources>
+    <resources os="SunOS" arch="x86_64">
+      <nativelib href = "resources/gluegen-rt/gluegen-rt-natives-solaris-amd64.jar" />
+      <nativelib href = "resources/jogl/jogl-natives-solaris-amd64.jar" />
+    </resources>
+    <resources os="Linux" arch="i386">
+      <nativelib href = "resources/gluegen-rt/gluegen-rt-natives-linux-i586.jar" />
+      <nativelib href = "resources/jogl/jogl-natives-linux-i586.jar" />
+    </resources>
+    <resources os="Linux" arch="x86">
+      <nativelib href = "resources/gluegen-rt/gluegen-rt-natives-linux-i586.jar" />
+      <nativelib href = "resources/jogl/jogl-natives-linux-i586.jar" />
+    </resources>
+    <resources os="Linux" arch="amd64">
+      <nativelib href = "resources/gluegen-rt/gluegen-rt-natives-linux-amd64.jar" />
+      <nativelib href = "resources/jogl/jogl-natives-linux-amd64.jar" />
+    </resources>
+    <resources os="Linux" arch="x86_64">
+      <nativelib href = "resources/gluegen-rt/gluegen-rt-natives-linux-amd64.jar" />
+      <nativelib href = "resources/jogl/jogl-natives-linux-amd64.jar" />
+    </resources>
+    <resources os="Mac OS X" arch="i386">
+      <nativelib href = "resources/gluegen-rt/gluegen-rt-natives-macosx-universal.jar" />
+      <nativelib href = "resources/jogl/jogl-natives-macosx-universal.jar" />
+    </resources>
+    <resources os="Mac OS X" arch="x86_64">
+      <nativelib href = "resources/gluegen-rt/gluegen-rt-natives-macosx-universal.jar" />
+      <nativelib href = "resources/jogl/jogl-natives-macosx-universal.jar" />
+    </resources>
+
+  <application-desc main-class="GraphicalMain"/>
+</jnlp>
